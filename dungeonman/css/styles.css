@@ -1,0 +1,20 @@
+body {
+    background-size: cover;
+    color: #FF8533;
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-image:   url("http://wowarmenia.com/wp-content/uploads/2009/04/061_4_temnica_grikora1.jpg");
+}
+
+h6 {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    padding-top: 575px;
+    text-align: center;
+    position: relative;
+    bottom: 5px;
+}
+
+.form-control-input {
+    width: 50%;
+}
