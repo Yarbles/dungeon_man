@@ -11,9 +11,8 @@ dungeonMan.config(function($stateProvider) {
         templateUrl: "partials/character_create.html",
         controller: 'CharactersCtrl'
     });
-    $stateProvider.state('intermediate', {
-        url: "/intermediate",
-        templateUrl: "partials/intermediate.html",
-        controller: 'CharactersCtrl'
+    $stateProvider.state('cell', {
+        url: "/cell",
+        templateUrl: "partials/cell.html"
     });
 });
