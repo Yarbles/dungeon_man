@@ -13,6 +13,7 @@ dungeonMan.config(function($stateProvider) {
     });
     $stateProvider.state('cell', {
         url: "/cell",
-        templateUrl: "partials/cell.html"
+        templateUrl: "partials/cell.html",
+        controller: 'CharactersCtrl'
     });
 });

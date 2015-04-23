@@ -4,7 +4,6 @@
         <div class="form-group">
             <h3>Enter your name:</h3>
             <input type="text" size="10" ng-model="nameOfCharacter" class="form-control-input" placeholder="DUNGEON MAN" required>
-            <button type="submit" class="btn btn-success">Enter</button>
         </div>
 
         <div class="form-group">
@@ -14,6 +13,7 @@
                 <option value=75>Mercenary</option>
                 <option value=50>Peasant</option>
             </select>
+            <button type="submit" class="btn btn-success">Create!</button>
         </div>
 
     </form>
@@ -22,6 +22,6 @@
         <p>{{ CharacterFactory.healthPoints }} hit points</p>
     </div>
 
-    <a ui-sref="cell" link href=""><button type="submit">GO TO JAIL, DUNGEON MAN</button></a>
+    <a ui-sref="cell"><button>NOW ENTER THE DUNGEON, DUNGEON MAN</button></a>
 
 </div>
